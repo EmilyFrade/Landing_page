@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    font-size: 26px;
+    color: rgb(59, 59, 59);
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: #48C5CE;
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.formcontainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16px;
+    color: rgb(59, 59, 59);
+}
+
+.mb{
+    margin-bottom: 10px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #48C5CE;
+    font-weight: bold;
+}
+
+section{
+    padding: 20px;
+    background-image: url(".//Images/Cupcake.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+footer{
+    background-color: #48C5CE;
+    text-align: center;
+    padding: 15px;
+}
+
+.images{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
